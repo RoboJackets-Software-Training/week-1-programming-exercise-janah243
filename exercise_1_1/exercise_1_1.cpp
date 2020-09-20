@@ -44,7 +44,7 @@ int main() {
 
         } else if (direction == 'e') {
 
-            std::cout << "Shutting Down" << std::endl;
+            std::cout << "Shutting down" << std::endl;
         	for (int i = 0; i < wheel_speeds.size(); i++) {
 
         		wheel_speeds[i] = 0;
@@ -59,7 +59,7 @@ int main() {
 
         for (int i = 0; i < wheel_speeds.size(); i++) {
 
-        	std::cout << "wheel at index " << i << " has speed: " << wheel_speeds[i] << std::endl;
+        	std::cout << "wheel at index " << i << " has speed: " << wheel_speeds[i] << "\n";
 
         }
     }
