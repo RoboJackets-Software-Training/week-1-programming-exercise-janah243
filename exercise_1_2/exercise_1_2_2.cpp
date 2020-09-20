@@ -26,10 +26,10 @@ int main()
     	right--;
     }
 
-    if (is_palindrome == true) {
-    	std::cout << str << " is a palindrome";
+    if (is_palindrome) {
+    	std::cout << str << " is a palindrome" << std::endl;
     } else {
-    	std::cout << str << " is NOT a palindrome";
+    	std::cout << str << " is NOT a palindrome" << std::endl;
     }
 
     return 0;

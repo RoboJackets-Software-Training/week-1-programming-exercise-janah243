@@ -29,11 +29,12 @@ int main()
     int end = list.size() - 1;
 
     while (start < end) {
-
+        
+        int temp = list[start];
+        list[start] = list[end];
+        list[end] = temp;
         start++;
         end--;
-        list[start] = list[end];
-        list[end] = list[start];
     }
 
     // Print the Reversed vector
