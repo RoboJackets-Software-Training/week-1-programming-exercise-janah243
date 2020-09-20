@@ -10,7 +10,26 @@ int main()
     std::cin >> str;
 
     // Palindrome Check
-    // WRITE YOUR PALINDROME CHECK HERE
+    int left = 0;
+    int right = str.size() - 1;
+
+    bool is_palindrome = true;
+
+    while (left < right) {
+    	if (str[left] != str[right]) {
+    		is_palindrome = false;
+    		break;
+    	}
+
+    	left++;
+    	right--;
+    }
+
+    if (is_palindrome == true) {
+    	std::cout << str << " is a palindrome";
+    } else {
+    	std::cout << str << " is NOT a palindrome";
+    }
 
     return 0;
 }
