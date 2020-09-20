@@ -10,6 +10,7 @@ int main()
     std::cin >> str;
 
     // Palindrome Check
+    // WTRITE YOUR PALINDROME CHECK HERE
     int left = 0;
     int right = str.size() - 1;
 
