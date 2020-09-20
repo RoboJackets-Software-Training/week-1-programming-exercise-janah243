@@ -46,10 +46,10 @@ int main() {
 
         } else if (direction == 'e') {
 
+            std::cout << "Shutting Down" << std::endl;
         	for (int i = 0; i < wheel_speeds.size(); i++) {
 
         		wheel_speeds[i] = 0;
-        		std::cout << "Shutting Down";
         		keep_going = false;
         	}
 
